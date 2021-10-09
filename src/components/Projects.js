@@ -1,4 +1,8 @@
 import React from "react";
+import pwGen from "./images/pw_gen.png";
+import planet from "./images/code_quiz.png";
+import lyrific from "./images/lyrific.png";
+import gathr from "./images/gathr.png";
 
 function Projects() {
   return (
@@ -13,11 +17,7 @@ function Projects() {
           target="no_blank"
         >
           <figure>
-            <img
-              src="components/images/pw_gen.png"
-              alt="Password Generator"
-              class="icon"
-            />
+            <img src={pwGen} alt="Password Generator" class="icon" />
             <figcaption>Password Generator</figcaption>
           </figure>
         </a>
@@ -27,11 +27,7 @@ function Projects() {
           target="no_blank"
         >
           <figure>
-            <img
-              src="/images/Screen Shot 2021-08-17 at 8.23.36 PM.png"
-              alt="Planetary Quiz"
-              class="icon"
-            />
+            <img src={planet} alt="Planetary Quiz" class="icon" />
             <figcaption>Planetary Quiz</figcaption>
           </figure>
         </a>
@@ -41,11 +37,7 @@ function Projects() {
           target="no_blank"
         >
           <figure>
-            <img
-              src="/images/Screen Shot 2021-08-17 at 8.28.31 PM.png"
-              alt="Lyrific Screenshot"
-              class="icon"
-            />
+            <img src={lyrific} alt="Lyrific Screenshot" class="icon" />
             <figcaption>Lyrific (Proj 1)</figcaption>
           </figure>
         </a>
@@ -53,11 +45,7 @@ function Projects() {
       <div class="sites">
         <a href="https://shielded-mesa-10854.herokuapp.com/" target="no_blank">
           <figure>
-            <img
-              src="/images/Screen Shot 2021-09-15 at 5.56.36 PM.png"
-              alt="Gathr"
-              class="icon"
-            />
+            <img src={gathr} alt="Gathr" class="icon" />
             <figcaption>Gathr (Proj 2)</figcaption>
           </figure>
         </a>
